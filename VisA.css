@@ -1,0 +1,191 @@
+.Type2 {
+    position: absolute;
+    top: 120px;
+    left: 750px;
+}
+
+.NameNumA01 {
+    position: absolute;
+    top: 200px;
+    left: 740px;
+    font-size: 14pt;
+    padding:3px;
+}
+
+.AdvNumA01 {
+    position: absolute;
+    top: 184px;
+    left: 780px;
+    width: 50pt;
+}
+
+.NameNumA02 {
+    position: absolute;
+    top: 235px;
+    left: 740px;
+    font-size: 14pt;
+    padding:3px;
+}
+
+.AdvNumA02 {
+    position: absolute;
+    top: 220px;
+    left: 780px;
+    width: 50pt;
+}
+
+.NameNumA03 {
+    position: absolute;
+    top: 270px;
+    left: 740px;
+    font-size: 14pt;
+    padding:3px;
+}
+
+.AdvNumA03 {
+    position: absolute;
+    top: 254px;
+    left: 780px;
+    width: 50pt;
+}
+
+.XRes1 {
+    font-size: 15pt;
+
+    position: absolute;
+    top: 307px;
+    left: 790px;
+}
+
+.XRes2 {
+    font-size: 15pt;
+
+    position: absolute;
+    top: 340px;
+    left: 790px;
+}
+
+.ResultA1 {
+    font-size: 15pt;
+
+    position: absolute;
+    top: 307px;
+    left: 740px;
+}
+
+.ResultA2 {
+    font-size: 15pt;
+
+    position: absolute;
+    top: 340px;
+    left: 740px;
+}
+
+.Res {
+    position: absolute;
+    top: 400px;
+    left: 740px;
+    margin: 10pt;
+    padding: 5pt 10pt;
+    color: black;
+    background-color: silver;
+    font-size: 10pt;
+}
+
+.Explicação {
+    font-size: 17pt;
+
+    position: absolute;
+    top: 500px;
+    left: 750px;
+}
+
+.Del {
+    position: absolute;
+    top: 230px;
+    left: 1300px;
+    padding: 5px 20px;
+    color: black;
+    background-color: whitesmoke;
+    font-size: 10pt;
+}
+
+.X1 {
+    position: absolute;
+    top: 146px;
+    left: 860px;
+    width: 30px;
+}
+
+.ValA {
+    position: absolute;
+    font-size: 13pt;
+    top: 146px;
+    left: 905px;
+}
+
+.ValB {
+    position: absolute;
+    top: 146px;
+    left: 980px;
+}
+
+.X2 {
+    position: absolute;
+    top: 146px;
+    left: 935px;
+    width: 30px;
+}
+
+.ValC {
+    position: absolute;
+    top: 146px;
+    left: 1055px;
+}
+
+.Num1 {
+    position: absolute;
+    top: 146px;
+    left: 1010px;
+    width: 30px;
+}
+
+.agrupamentoA {
+    position: absolute;
+    font-size: 6pt;
+    top: 176px;
+    left: 860px;
+    width: 40px;
+}
+
+.agrupamentoB {
+    position: absolute;
+    font-size: 6pt;
+    top: 176px;
+    left: 935px;
+    width: 40px;
+}
+
+.agrupamentoC {
+    position: absolute;
+    font-size: 6pt;
+    top: 176px;
+    left: 1010px;
+    width: 40px;
+}
+
+.Igualdade {
+    position: absolute;
+    font-size: 13pt;
+    top: 146px;
+    left: 1100px;
+}
+
+.Tutorial {
+    font-size: 10pt;
+
+    position: absolute;
+    top: 130px;
+    left: 1200px;
+    width: 200px;
+}
