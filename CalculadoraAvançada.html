@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet"; href="VisS.css">
+    <link rel="stylesheet"; href="VisA.css">
+
+    <script src="ConfigSpl.js"></script>
+    <script src="ConfigAdv.js"></script>
+    <script src="Atr.js"></script>
+
+
+    <title>CalculadoraAvancada</title>
+
+    
+</head>
+
+<body>
+    <h1>Calculadora</h1>
+    <hr>
+
+
+    <div class="Tipo01">
+
+        <h2 class="Type1"> <!-- Título do código -->
+            Cálculo Básico:
+        </h2>
+
+
+    <br>
+
+
+        <label id="NumeradorS"; class="NameNumS01">Numerador:</label> <!-- Valor 01-->
+        <br>
+        <input id="ValueS1"; type="Number"; class="SplNumS01">
+
+
+    <br> <!--------------------------------------------------------------------------------------------------------------------------->
+
+
+        <label id="DenominadorS"; class="NameNumS02">Denominador:</label> <!-- Valor 02-->
+        <br>
+        <input id="ValueS2" type="Number"; class="SplNumS02">
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+    <button class="Operador"; onclick="Conta('somar')">
+        Somar:
+    </button>
+     
+    <button class="Operador"; onclick="Conta('subtrair')">
+        Subtrair:
+    </button>
+        
+    <button class="Operador"; onclick="Conta('multiplicar')">
+        Multiplicar:
+    </button>
+
+    <button class="Operador"; onclick="Conta('dividir')">
+        Dividir:
+    </button>
+
+    <button class="Delete"; onclick="Conta('deletar')">
+        Limpar:
+    </button>
+
+
+    <div> <!-- Resultado -->
+
+        <h2 class="ResultSpl"> Resultado: </h2>
+        <br>
+        <h2 id="Sobra"; class="ResultadoS01">
+        </h2>
+
+    </div>
+
+</div>
+
+
+
+
+
+
+
+<!--Equação --------------------------------------------------------------------------------------------------------------------------->
+
+    <div   class="Tipo02">
+
+        <h2 class="Type2"> <!-- Título do código -->
+            Equação: 
+        </h2>
+
+    <br>
+
+    <div class="Resolução">
+        <!--X elevado ao quadrado-->
+        <input class="X1"; id="Val1", type="number">
+        <br>
+        <label class="ValA">X²</label>
+        <button class="agrupamentoA"; onclick="Atribuir('NA')">
+            Atribuir
+        </button>
+
+
+        <!--X elevado a primeira potencia-->
+        <input class="X2"; id="Val2"; type="number">
+        <br>
+        <label class="ValB">X</label>
+        <button class="agrupamentoB"; onclick="Atribuir('NB')">
+            Atribuir
+        </button>
+
+
+        <!--Numero inteiro-->
+        <input class="Num1"; id="Val3"; type="number">
+        <br>
+        <label class="ValC">Num</label>
+        <button class="agrupamentoC"; onclick="Atribuir('NC')">
+            Atribuir
+        </button>
+
+        <label class="Igualdade">= 0</label>
+    </div>
+
+
+
+
+    <div class="Coficientes"> <!--Coficiente A, B, C-->
+
+        <!--Coficiente A-->
+        <label class="NameNumA01"">A =</label>
+        <br>
+        <h3 class="AdvNumA01"; id="XA"></h3>
+
+
+        <!--Coficiente B-->
+        <label class="NameNumA02">B =</label>
+        <br>
+        <h3 class="AdvNumA02"; id="XB"></h3>
+
+
+        <!--Coficiente C-->
+        <label class="NameNumA03">C =</label>
+        <br>
+        <h3 class="AdvNumA03"; id="XC"></h3>
+
+    </div>
+
+<br>
+
+
+    <div> <!-- Resultado -->
+
+        <h2 class="ResultA1"> X1: </h2>
+        <br>
+        <h2 id="SobraA1"; class="XRes1">
+        </h2>
+
+        <h2 class="ResultA2"> X2: </h2>
+        <br>
+        <h2 id="SobraA2"; class="XRes2">
+        </h2>
+
+        <h2 class="Explicação">
+            Se você colocar algum valor nos 3 coficientes 
+            e depois que apertar o botão "Resolver" aparecer a mensagem NaN, 
+            é porquê as raizes da equação são inexistentes. Tente colocar 2, 2 e 2 nos valores acima, aparecerá exatamente isso.
+            Espero que essa calculadora te ajude.
+        </h2>
+
+        <h3 class="Tutorial">
+            Aperte em atribuir para ver o valor dos coficientes 
+            A, B e C de acordo com os valores de X.
+        </h3>
+
+    </div>
+
+
+
+
+
+
+    <div class="Resolver">
+        <button class="Res"; onclick="Fatorar('Resolva')">
+            Resolver
+        </button>
+
+        <button class="Del"; onclick="Fatorar('deletar')">
+            Limpar:
+        </button>
+    </div>
+
+    </div>
+
+</body>
+</html>
